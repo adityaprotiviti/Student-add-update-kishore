@@ -1,0 +1,11 @@
+dependencies {
+	compile project(":modules:student-crud:student-crud-api")
+
+	compileOnly group: "com.liferay.portal", name: "release.dxp.api"
+}
+
+buildService {
+	apiDir = "../student-crud-api/src/main/java"
+}
+
+group = "student.crud"

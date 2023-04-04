@@ -1,0 +1,10 @@
+Bundle-Name: student-crud-api
+Bundle-SymbolicName: student.crud.api
+Bundle-Version: 1.0.0
+Export-Package:\
+	student.crud.exception,\
+	student.crud.model,\
+	student.crud.service,\
+	student.crud.service.persistence
+-check: EXPORTS
+-includeresource: META-INF/service.xml=../student-crud-service/service.xml
